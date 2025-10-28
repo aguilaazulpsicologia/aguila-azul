@@ -21,6 +21,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para Iconos (Añadido para el icono de Instagram) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
     
     <!-- Paleta: Dominante Blanco (BG) y Textos/Acentos en Índigo Oscuro. Teal como color de énfasis. -->
     <style>
@@ -62,6 +64,8 @@
                     <div class="flex space-x-4">
                         <!-- ENLACES DE NAVEGACIÓN ACTUALIZADOS -->
                         <a href="#inicio" class="text-white hover:text-teal-400 px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                        <!-- NUEVO ENLACE AÑADIDO -->
+                        <a href="#nuestro_corazon" class="text-white hover:text-teal-400 px-3 py-2 rounded-md text-sm font-medium">Nuestro Corazón</a>
                         <a href="#fundamento" class="text-white hover:text-teal-400 px-3 py-2 rounded-md text-sm font-medium">El Fundamento</a>
                         <a href="#beneficios" class="text-white hover:text-teal-400 px-3 py-2 rounded-md text-sm font-medium">Beneficios</a>
                         <a href="#acciones" class="text-white hover:text-teal-400 px-3 py-2 rounded-md text-sm font-medium">Campos de Acción</a>
@@ -82,6 +86,8 @@
             </div>
             <div id="mobile-menu" class="hidden sm:hidden pb-3 space-y-1">
                 <a href="#inicio" class="text-white hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+                <!-- NUEVO ENLACE MÓVIL AÑADIDO -->
+                <a href="#nuestro_corazon" class="text-white hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium">Nuestro Corazón</a>
                 <a href="#fundamento" class="text-white hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium">El Fundamento</a>
                 <a href="#beneficios" class="text-white hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium">Beneficios</a>
                 <a href="#acciones" class="text-white hover:text-teal-400 block px-3 py-2 rounded-md text-base font-medium">Campos de Acción</a>
@@ -108,6 +114,24 @@
                 <a href="#recurso_gratuito" class="mt-10 inline-block bg-red-600 text-white text-xl font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-red-700 transition-all duration-300 transform hover:scale-105">
                     Descargue su Guía Gratuita Ahora
                 </a>
+            </div>
+        </section>
+        
+        <!-- SECCIÓN: Nuestro Corazón - Declaración de Misión Profunda -->
+        <section id="nuestro_corazon" class="py-16 bg-indigo-900 text-white border-b-4 border-teal-500">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+                <h2 class="text-3xl font-bold text-center text-teal-400 mb-8">Nuestro Corazón en Águila Azul</h2>
+                <div class="prose prose-lg max-w-none text-indigo-100 mx-auto">
+                    <p class="text-lg mb-4 text-center">
+                        En Águila Azul, nuestro propósito más profundo es acompañar a las familias y escuelas en la hermosa tarea de construir y fortalecer un <strong class="font-semibold text-teal-400">apego seguro</strong>. Porque sabemos que este vínculo esencial es la base para prevenir muchos problemas emocionales que pueden surgir en la infancia.
+                    </p>
+                    <p class="text-lg mb-4">
+                        Comprendemos que a menudo vemos solo la superficie: el exceso de pantallas, la agitada rutina que reduce el tiempo familiar, el estrés escolar... Pero detrás de cada conducta, de cada pequeña dificultad o gran desafío, siempre hay un 'por qué' esperando ser comprendido. Nos dedicamos a buscar esas causas, a desentrañarlas con empatía y a ofrecer herramientas para que cada niño y niña pueda <strong class="font-semibold text-teal-400">crecer feliz y equilibrado</strong>.
+                    </p>
+                    <p class="text-lg mb-4 italic border-l-4 border-indigo-500 pl-4">
+                        Y cuando, lamentablemente, no queda más remedio y las familias se encuentran inmersas en procesos complejos como procesos de custodia o régimen de visitas, nuestra mano experta está presente. Realizamos <strong class="font-semibold text-red-400">informes periciales</strong> con la máxima ética, rigor, objetividad, imparcialidad y una claridad absoluta, siempre con el bienestar emocional de los más pequeños como nuestra guía inquebrantable.
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -236,7 +260,7 @@
                     
                     <p class="mb-6 text-lg text-indigo-700">Descargue ahora nuestra guía exclusiva: **5 claves para construir un vínculo seguro en la infancia**.</p>
                     
-                    
+                    <!-- Formulario Tally Embed -->
                     <div class="max-w-md mx-auto h-[350px] overflow-hidden rounded-lg shadow-lg border border-gray-300">
                         <iframe 
                             src="https://tally.so/embed/nrx9LR?alignLeft=1&hideTitle=1&transparentBackground=1" 
@@ -313,7 +337,7 @@
                     
                     <!-- Pilar 2: Metodología Basada en la Evidencia (EBP) -->
                     <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-teal-500 text-center">
-                        <svg class="w-10 h-10 mx-auto text-teal-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v14L9 19zm0 0l-3 3-3-3m0 0l-3 3-3-3"></path></svg>
+                        <svg class="w-10 h-10 mx-auto text-teal-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v14L9 19zm0 0l-3 3-3-3m0 0l-3 3-3-3m0 0l-3 3-3-3"></path></svg>
                         <h3 class="text-xl font-semibold text-indigo-800 mb-2">Estandarización Científica</h3>
                         <p class="text-indigo-800 text-sm">Utilizamos únicamente instrumentos de evaluación validados y la metodología EBP (Práctica Basada en la Evidencia) para la emisión de informes y el diseño de talleres.</p>
                     </div>
@@ -409,6 +433,22 @@
     <!-- Footer - Fondo Índigo (Ancla Oscura) -->
     <footer class="bg-indigo-900 text-white py-8">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <!-- CONTENEDOR DE ICONOS DE REDES SOCIALES (NUEVA ADICIÓN) -->
+            <div class="flex justify-center space-x-6 mb-4">
+                <a 
+                    href="[https://www.instagram.com/aguilaazul.psico/]" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Instagram de Águila Azul"
+                    class="text-indigo-200 hover:text-teal-400 transition-colors duration-300 transform hover:scale-110"
+                >
+                    <!-- Icono de Instagram de Font Awesome (fab fa-instagram) -->
+                    <i class="fab fa-instagram text-3xl"></i>
+                </a>
+                <!-- Si deseas añadir más iconos, duplica el <a> tag aquí -->
+            </div>
+
             <p class="text-sm">&copy; 2025 Proyecto Águila Azul. Todos los derechos reservados.</p>
             <p class="text-xs text-indigo-300 mt-2">Concepto de aplicación web generado para demostración.</p>
             <p class="text-xs text-indigo-300 mt-4">
