@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad - Águila Azul</title>
     
+    <!-- Ícono de la página -->
     <link rel="icon" href="https://placehold.co/32x32/4338CA/FFFFFF?text=AA" type="image/x-icon">
 
-    <!-- Cargando Tailwind CSS -->
+    <!-- Cargando Tailwind CSS (Requerido para el diseño) -->
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Configuración personalizada de Tailwind (Misma paleta que la Landing) -->
@@ -16,19 +17,16 @@
             theme: {
                 extend: {
                     colors: {
-                        // PALETA PRINCIPAL
+                        // PALETA PRINCIPAL Y FONDOS
                         'azul-fondo': '#F0FDFA', 
                         'azul-principal': '#4338CA', 
                         'teal-principal': '#14B8A6', 
                         
                         // COLORES DE ACCIÓN Y CTA
-                        'cyan-cta': '#06B6D4', 
                         'rojo-guia': '#DC2626', 
                         
                         // Fondos de secciones internas
                         'fondo-claro': '#FFFFFF', 
-                        'fondo-apego': '#CCFBF1', 
-                        'fondo-tarjeta-claro': '#F0FDFA', 
 
                         // Colores de Texto
                         'texto-claro': '#4338CA', 
@@ -42,7 +40,7 @@
         }
     </script>
     
-    <!-- Estilos CSS personalizados -->
+    <!-- Estilos CSS personalizados (para el diseño de secciones) -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         
@@ -60,15 +58,17 @@
     <!-- Header simple para la Política -->
     <header class="bg-azul-principal shadow-2xl">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo -->
             <div class="text-2xl font-extrabold text-white flex items-center">
                 <svg class="w-8 h-8 mr-2 text-teal-principal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                 <span class="text-teal-principal">Águila</span> <span class="text-white">Azul</span>
             </div>
+            <!-- Enlace a la Landing Page (index.html) -->
             <a href="index.html" class="text-indigo-200 hover:text-teal-principal transition duration-150">Volver a la Home</a>
         </div>
     </header>
 
-    <!-- Contenido de la Política de Privacidad -->
+    <!-- Contenido Principal de la Política -->
     <main class="py-16">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-4xl font-extrabold text-azul-principal mb-2 text-center">Política de Privacidad</h1>
@@ -81,7 +81,7 @@
                 </p>
             </div>
             
-            <!-- 1. Responsable del tratamiento (Adaptado al texto del usuario) -->
+            <!-- 1. Responsable del tratamiento -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">1. Responsable del Tratamiento</h2>
                 <ul class="list-none space-y-2">
@@ -97,7 +97,7 @@
                 </ul>
             </div>
 
-            <!-- 2. Finalidad del tratamiento (Adaptado al texto del usuario) -->
+            <!-- 2. Finalidad del tratamiento -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">2. Finalidad del Tratamiento</h2>
                 <p>Los datos personales que facilites (nombre, correo electrónico u otros datos opcionales) se utilizarán únicamente para:</p>
@@ -111,7 +111,7 @@
                 </p>
             </div>
 
-            <!-- 3. Legitimación (Adaptado al texto del usuario) -->
+            <!-- 3. Legitimación -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">3. Legitimación</h2>
                 <p class="text-lg leading-relaxed">
@@ -122,7 +122,7 @@
                 </p>
             </div>
 
-            <!-- 4. Destinatarios (Adaptado al texto del usuario) -->
+            <!-- 4. Destinatarios -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">4. Destinatarios</h2>
                 <p>
@@ -133,7 +133,7 @@
                 </p>
             </div>
 
-            <!-- 5. Conservación de los datos (Adaptado al texto del usuario) -->
+            <!-- 5. Conservación de los datos -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">5. Conservación de los Datos</h2>
                 <p>
@@ -141,7 +141,7 @@
                 </p>
             </div>
             
-            <!-- 6. Derechos de las personas usuarias (Adaptado al texto del usuario) -->
+            <!-- 6. Derechos de las Personas Usuarias (ARCO-P) -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">6. Derechos de las Personas Usuarias (ARCO-P)</h2>
                 <p>Puedes ejercer tus derechos de <strong class="text-azul-principal">acceso, rectificación, supresión, limitación, oposición y portabilidad</strong> enviando un correo a:</p>
@@ -153,7 +153,7 @@
                 </p>
             </div>
 
-            <!-- 7. Seguridad (Adaptado al texto del usuario) -->
+            <!-- 7. Seguridad -->
             <div class="policy-section">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">7. Seguridad</h2>
                 <p>
@@ -161,7 +161,7 @@
                 </p>
             </div>
 
-            <!-- 8. Compromiso ético (Adaptado al texto del usuario) -->
+            <!-- 8. Compromiso Ético -->
             <div class="policy-section border-l-4 border-azul-principal">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">8. Compromiso Ético</h2>
                 <p class="text-lg font-semibold text-azul-principal">
@@ -169,7 +169,7 @@
                 </p>
             </div>
 
-            <!-- COOKIES (MANTENIDO) -->
+            <!-- 9. Política de Cookies -->
             <div class="policy-section bg-fondo-claro border-l-4 border-rojo-guia">
                 <h2 class="text-2xl font-bold text-teal-principal mb-4">9. Política de Cookies</h2>
                 <p>Este sitio web utiliza cookies propias y de terceros con fines de análisis y para garantizar el correcto funcionamiento de los formularios (Tally.so). Puedes consultar la información detallada sobre el uso de cookies en nuestra <strong class="text-azul-principal">Política de Cookies</strong> [Enlace a un futuro archivo de política de cookies, si se crea].</p>
@@ -186,7 +186,7 @@
         </div>
     </main>
 
-    <!-- Footer - Simple y consistente -->
+    <!-- Footer -->
     <footer class="bg-azul-principal text-texto-medio py-6 border-t border-teal-principal/50 mt-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p class="text-sm text-indigo-300">&copy; 2025 Águila Azul. Política de Privacidad.</p>
@@ -194,5 +194,3 @@
     </footer>
 </body>
 </html>
-
-
